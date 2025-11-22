@@ -1,0 +1,187 @@
+.bio {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: #ffffff;
+    max-width: 1000px;
+}
+
+img {
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.informacion {
+    max-width: 650px;
+}
+
+.informacion h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.informacion p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.leer-mas {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.leer-mas:hover {
+    background-color: black;
+    color: white;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: -20px;
+}
+
+body {
+    background-color: #42a5f5
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Verdana', serif;
+    margin-top: 30px;
+}
+
+h2 {
+    font-family: 'Verdana', serif;
+    text-align: center;
+}
+
+.menus {
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Verdana', serif;
+}
+
+.menus a {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    transition: transform 0.2s ease;
+}
+
+.menus a:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+.form-contacto textarea,
+.form-contacto input {
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    max-width: 350px;
+    font-family: 'Arial', serif;
+}
+
+button {
+
+    display: inline-block;
+    padding: 8px 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.cuadrocont {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 15px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: #ffffff;
+    max-width: 1000px;
+}
+
+.cuadrocont input,
+.cuadrocont textarea,
+.cuadrocont button {
+    width: 100%;
+}
+
+.con-texto {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-family: 'Arial', serif;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.bodis {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exito {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.error {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.volverinicio {
+    padding: 20px 0;
+    font-family: 'Verdana', serif;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.volverinicio:hover {
+    text-decoration: underline;
+    transition: transform 0.2s ease;
+    transform: scale(1.2);
+}
