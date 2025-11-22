@@ -11,7 +11,6 @@ Este proyecto es un sitio web personal que contiene información sobre Gandhi Ag
 5. El mensaje se guardará en la base de datos y aparecerá la confirmación debajo del botón.
 
 **Requisitos:**  
-- PHP 7.x o superior  
 - Servidor web (Apache)  
 - Base de datos MySQL
 
